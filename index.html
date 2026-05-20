@@ -1,0 +1,988 @@
+<!DOCTYPE html> html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiFlow</title>
+     <!--A modern digital agency that helps businesses grow online.-->
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+</style>
+
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Digital Agency Navbar</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        Digi<span>Flow</span>
+      </a>
+
+      <!-- Mobile Toggle -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarContent"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+
+        <!-- Center Nav Links -->
+        <ul class="navbar-nav mx-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown position-relative">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#services"
+              role="button"
+              data-bs-toggle="dropdown" aria-expanded="false"
+            >
+              Services
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#web-development">Web Development</a></li>
+              <li><a class="dropdown-item" href="#uiux-design">UI/UX Design</a></li>
+              <li><a class="dropdown-item" href="#seo-marketing">SEO Marketing</a></li>
+              <li><a class="dropdown-item" href="#app-development">App Development</a></li>
+              <li><a class="dropdown-item" href="#digital-marketing">Digital Marketing</a></li>
+              <li><a class="dropdown-item" href="#cyber-security">Cyber Security</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+        <!-- Right Button -->
+        <div class="btn-wrapper">
+          <a href="#contact" class="btn btn-started">
+            Get Started
+            <i class="bi bi-arrow-right ms-1"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Section Start -->
+<section id="home" class="hero-section">
+
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- Carousel Images -->
+    <div class="carousel-inner">
+
+      <!-- Image 1 -->
+      <div class="carousel-item active">
+        <img
+          src="images/hero-section-1.png"
+          class="d-block w-100"
+          alt="Digital Agency"
+        />
+      </div>
+
+      <!-- Image 2 -->
+      <div class="carousel-item">
+        <img
+          src="images/hero-section-2.png"
+          class="d-block w-100"
+          alt="Creative Team"
+        />
+      </div>
+
+      <!-- Image 3 -->
+      <div class="carousel-item">
+        <img
+          src="images/hero-section-3.png"
+          class="d-block w-100"
+          alt="Marketing Agency"
+        />
+      </div>
+
+    </div>
+
+    <!-- Fixed Caption -->
+    <div class="hero-caption">
+      <h1>
+        We Build Powerful Digital Experiences
+      </h1>
+
+      <p>
+        Helping brands grow with modern web design,
+        development and creative digital marketing solutions.
+      </p>
+
+      <a href="#" class="btn hero-btn">
+        Start Your Project
+      </a>
+    </div>
+
+    <!-- Prev Button -->
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#heroCarousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <!-- Next Button -->
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#heroCarousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+
+</section>
+<!-- Hero Section End -->
+
+<!-- =========================
+     ABOUT SECTION START
+========================= -->
+
+<section id="about" class="about-section">
+  <div class="container">
+    
+    <div class="row align-items-center g-5">
+
+      <!-- Left Content -->
+      <div class="col-lg-6">
+
+        <span class="about-tag">
+          ABOUT US
+        </span>
+
+        <h2 class="about-title">
+          We Create Smart Digital Solutions For Growing Brands
+        </h2>
+
+        <p class="about-text">
+          Our digital agency helps startups and businesses build powerful
+          online presence with modern design, development and marketing
+          strategies that deliver real results.
+        </p>
+
+        <!-- List Items -->
+        <div class="about-list">
+
+          <div class="about-item">
+            <i class="bi bi-check-circle-fill"></i>
+            <span>Modern & Responsive Website Design</span>
+          </div>
+
+          <div class="about-item">
+            <i class="bi bi-check-circle-fill"></i>
+            <span>SEO & Performance Optimization</span>
+          </div>
+
+          <div class="about-item">
+            <i class="bi bi-check-circle-fill"></i>
+            <span>Creative UI/UX Experience</span>
+          </div>
+
+          <div class="about-item">
+            <i class="bi bi-check-circle-fill"></i>
+            <span>Professional Support & Maintenance</span>
+          </div>
+
+        </div>
+
+        <!-- Buttons -->
+        <div class="about-buttons">
+          <a href="#" class="btn about-btn-primary">
+            Learn More
+          </a>
+
+          <a href="#" class="btn about-btn-outline">
+            Contact Us
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6">
+
+        <div class="about-image">
+            <img
+              src="images/about-section-1.png"
+              alt="About Agency"
+            />
+            <img
+              src="images/about-section-2.png"
+              alt="Agency Team"
+            />
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================
+     ABOUT SECTION END
+========================= -->
+
+<!-- =========================
+     SERVICES SECTION START
+========================= -->
+
+<section id="services" class="services-section">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="section-heading text-center">
+
+      <span class="service-tag">
+        OUR SERVICES
+      </span>
+
+      <h2 class="service-title">
+        Digital Services We Provide
+      </h2>
+
+      <p class="service-subtitle">
+        We help businesses grow online with modern digital solutions,
+        creative strategy and powerful technology.
+      </p>
+
+    </div>
+
+    <!-- Service Cards -->
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+
+          <div class="service-icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+
+          <h3 id="web-development">Web Development</h3>
+
+          <p>
+            Custom responsive websites with modern UI and optimized performance.
+          </p>
+
+          <ul>
+            <li>Responsive Design</li>
+            <li>Clean Code Structure</li>
+            <li>Fast Loading Speed</li>
+          </ul>
+
+          <a href="#" class="service-btn">
+            Read More
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+
+          <div class="service-icon">
+            <i class="bi bi-palette"></i>
+          </div>
+
+          <h3 id="uiux-design">UI/UX Design</h3>
+
+          <p>
+            Creative and user-friendly interface designs for better experience.
+          </p>
+
+          <ul>
+            <li>Modern Layouts</li>
+            <li>Interactive Design</li>
+            <li>Mobile Friendly</li>
+          </ul>
+
+          <a href="#" class="service-btn">
+            Read More
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+
+          <div class="service-icon">
+            <i class="bi bi-bar-chart"></i>
+          </div>
+
+          <h3 id="seo-marketing">SEO Marketing</h3>
+
+          <p>
+            Improve your search rankings and boost your online visibility.
+          </p>
+
+          <ul>
+            <li>Keyword Research</li>
+            <li>On Page SEO</li>
+            <li>Traffic Growth</li>
+          </ul>
+
+          <a href="#" class="service-btn">
+            Read More
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+
+          <div class="service-icon">
+            <i class="bi bi-phone"></i>
+          </div>
+
+          <h3 id="app-development">App Development</h3>
+
+          <p>
+            Powerful mobile applications for Android and iOS platforms.
+          </p>
+
+          <ul>
+            <li>Android Apps</li>
+            <li>iOS Solutions</li>
+            <li>Cross Platform</li>
+          </ul>
+
+          <a href="#" class="service-btn">
+            Read More
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+
+          <div class="service-icon">
+            <i class="bi bi-megaphone"></i>
+          </div>
+
+          <h3 id="digital-marketing">Digital Marketing</h3>
+
+          <p>
+            Reach more customers using social media and online advertising.
+          </p>
+
+          <ul>
+            <li>Social Media Ads</li>
+            <li>Brand Promotion</li>
+            <li>Lead Generation</li>
+          </ul>
+
+          <a href="#" class="service-btn">
+            Read More
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+
+          <div class="service-icon">
+            <i class="bi bi-shield-check"></i>
+          </div>
+
+          <h3 id="cyber-security">Cyber Security</h3>
+
+          <p>
+            Protect your business and website from digital threats & attacks.
+          </p>
+
+          <ul>
+            <li>Data Protection</li>
+            <li>Secure Hosting</li>
+            <li>24/7 Monitoring</li>
+          </ul>
+
+          <a href="#" class="service-btn">
+            Read More
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================
+     SERVICES SECTION END
+========================= -->
+
+<!-- =========================
+     PORTFOLIO SECTION START
+========================= -->
+
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="portfolio-heading text-center">
+
+      <span class="portfolio-tag">
+        OUR PORTFOLIO
+      </span>
+
+      <h2 class="portfolio-title">
+        Some Of Our Recent Projects
+      </h2>
+
+      <p class="portfolio-subtitle">
+        Explore our creative digital projects designed for startups,
+        businesses and modern brands around the world.
+      </p>
+
+    </div>
+
+    <!-- Portfolio Cards -->
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card">
+
+          <div class="portfolio-image">
+            <img
+              src="images/portfoilio-section-1.png"
+              alt="Project"
+            />
+          </div>
+
+          <div class="portfolio-content">
+
+            <span class="portfolio-category">
+              Web Development
+            </span>
+
+            <h3>
+              Modern Business Website
+            </h3>
+
+            <p>
+              Responsive corporate website with modern UI and smooth user experience.
+            </p>
+
+            <a href="#" class="portfolio-btn">
+              View Project
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card">
+
+          <div class="portfolio-image">
+            <img
+              src="images/portfoilio-section-2.png"
+              alt="Project"
+            />
+          </div>
+
+          <div class="portfolio-content">
+
+            <span class="portfolio-category">
+              UI/UX Design
+            </span>
+
+            <h3>
+              Creative Agency Landing Page
+            </h3>
+
+            <p>
+              Attractive landing page designed for better engagement and branding.
+            </p>
+
+            <a href="#" class="portfolio-btn">
+              View Project
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card">
+
+          <div class="portfolio-image">
+            <img
+              src="images/portfoilio-section-3.png"
+              alt="Project"
+            />
+          </div>
+
+          <div class="portfolio-content">
+
+            <span class="portfolio-category">
+              Mobile App
+            </span>
+
+            <h3>
+              Finance Management App
+            </h3>
+
+            <p>
+              User-friendly mobile application with secure and modern interface.
+            </p>
+
+            <a href="#" class="portfolio-btn">
+              View Project
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card">
+
+          <div class="portfolio-image">
+            <img
+              src="images/about-section-1.png"
+              alt="Project"
+            />
+          </div>
+
+          <div class="portfolio-content">
+
+            <span class="portfolio-category">
+              Branding
+            </span>
+
+            <h3>
+              Startup Brand Identity
+            </h3>
+
+            <p>
+              Complete branding solution including colors, logo and strategy.
+            </p>
+
+            <a href="#" class="portfolio-btn">
+              View Project
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card">
+
+          <div class="portfolio-image">
+            <img
+              src="images/about-section-2.png"
+              alt="Project"
+            />
+          </div>
+
+          <div class="portfolio-content">
+
+            <span class="portfolio-category">
+              E-Commerce
+            </span>
+
+            <h3>
+              Online Shopping Platform
+            </h3>
+
+            <p>
+              Fully responsive e-commerce website with secure payment integration.
+            </p>
+
+            <a href="#" class="portfolio-btn">
+              View Project
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-card">
+
+          <div class="portfolio-image">
+            <img
+              src="images/hero-section-1.png"
+              alt="Project"
+            />
+          </div>
+
+          <div class="portfolio-content">
+
+            <span class="portfolio-category">
+              Digital Marketing
+            </span>
+
+            <h3>
+              Social Media Campaign
+            </h3>
+
+            <p>
+              High-performing marketing campaign for boosting audience reach.
+            </p>
+
+            <a href="#" class="portfolio-btn">
+              View Project
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA Button -->
+    <div class="portfolio-cta text-center">
+
+      <a href="#" class="portfolio-main-btn">
+        Explore More Projects
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================
+     PORTFOLIO SECTION END
+========================= -->
+
+<!-- =========================
+     CONTACT SECTION START
+========================= -->
+
+<section id="contact" class="contact-section">
+
+  <div class="container-fluid p-0">
+
+    <div class="row g-0">
+
+      <!-- Left Map -->
+      <div class="col-lg-6">
+
+        <div class="contact-map">
+
+          <iframe
+            src="https://www.google.com/maps?q=Ranchi,Jharkhand&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+        </div>
+
+      </div>
+
+      <!-- Right Form -->
+      <div class="col-lg-6">
+
+        <div class="contact-wrapper">
+
+          <span class="contact-tag">
+            CONTACT US
+          </span>
+
+          <h2 class="contact-title">
+            Let’s Build Something Amazing Together
+          </h2>
+
+          <p class="contact-text">
+            Have a project idea or business query?
+            Send us a message and our team will get back to you shortly.
+          </p>
+
+          <!-- Form -->
+          <form class="contact-form">
+
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="input-box">
+                  <input type="text" placeholder="Your Name" required>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="input-box">
+                  <input type="email" placeholder="Your Email" required>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="input-box">
+              <input type="text" placeholder="Subject" required>
+            </div>
+
+            <div class="input-box">
+              <textarea rows="6" placeholder="Write Your Message"></textarea>
+            </div>
+
+            <button type="submit" class="contact-btn">
+              Send Message
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================
+     CONTACT SECTION END
+========================= -->
+
+<!-- =========================
+     FOOTER SECTION START
+========================= -->
+
+<footer class="footer-section">
+
+  <div class="container">
+
+    <div class="row gy-5">
+
+      <!-- Footer About -->
+      <div class="col-lg-4 col-md-6">
+
+        <div class="footer-about">
+
+          <a href="#" class="footer-logo">
+            Digi<span>Flow</span>
+          </a>
+
+          <p>
+            We create modern digital experiences with innovative
+            web solutions, branding and marketing strategies
+            for growing businesses.
+          </p>
+
+          <!-- Social Icons -->
+          <div class="footer-social">
+
+            <a href="#">
+              <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#">
+              <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+
+            <a href="#">
+              <i class="bi bi-linkedin"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-2 col-md-6">
+
+        <div class="footer-links">
+
+          <h4>Quick Links</h4>
+
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <!-- Services -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="footer-links">
+
+          <h4>Services</h4>
+
+          <ul>
+            <li><a href="#web-development">Web Development</a></li>
+            <li><a href="#uiux-design">UI/UX Design</a></li>
+            <li><a href="#seo-marketing">SEO Marketing</a></li>
+            <li><a href="#digital-marketing">Digital Branding</a></li>
+            <li><a href="#app-development">App Development</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="footer-contact">
+
+          <h4>Contact Info</h4>
+
+          <p>
+            Ranchi, Jharkhand, India
+          </p>
+
+          <p>
+            zeshan1234anwar@gmail.com
+          </p>
+
+          <p>
+            +91 79037 19233
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 DigiFlow. All Rights Reserved.
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- =========================
+     FOOTER SECTION END
+========================= -->
+
+<!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>
