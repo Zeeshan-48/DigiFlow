@@ -48,6 +48,8 @@ body{
 .dropdown-menu{
   background-color: #0f1c31;
   border: 1px solid rgba(255,255,255,0.08);
+  z-index: 99999;
+  position: absolute;
 }
 
 .dropdown-item{
@@ -970,4 +972,25 @@ body{
   .footer-bottom p{
     font-size: 0.9rem;
   }
+}
+
+/* =========================
+   FIX NAVBAR DROPDOWN
+========================= */
+
+.navbar{
+  position: relative;
+  z-index: 9999;
+}
+
+.nav-item.dropdown:hover .dropdown-menu{
+  display: block;
+  margin-top: 0;
+}
+
+.hero-section,
+.carousel,
+.carousel-item,
+.carousel-inner{
+  z-index: 1;
 }
